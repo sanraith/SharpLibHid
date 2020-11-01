@@ -44,7 +44,7 @@ namespace SharpLib.Hid
                     return typeof(UsageCollection.WindowsMediaCenter);
 
                 default:
-                    return null;
+                    return typeof(UsageCollection.GenericDesktop);
             }
         }
 
@@ -79,7 +79,7 @@ namespace SharpLib.Hid
                     return typeof(Usage.GenericDevice);
 
                 default:
-                    return null;
+                    return typeof(Usage.GenericDevice);
             }
         }
 
